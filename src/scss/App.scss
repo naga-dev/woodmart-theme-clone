@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// App font
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto:wght@700&display=swap");
+
+:root {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  // height: 5000px;
+}
+
+// Helpers
+@import "./helpers/variables.scss";
+@import "./helpers/mixins.scss";
+@import "./helpers/classes.scss";
+@import "./helpers/loop.scss";
+
+// Components
+@import "./components/TopBar.scss";
+@import "./components/AppMainHeader.scss";
+@import "./components/AppHeaderNav.scss";
+@import "./components/ShoppingCartSideBar.scss";
+@import "./components/FeaturesCategorySection.scss";
+@import "./components/ProductItem.scss";
+@import "./components/FeaturesProductsSection.scss";
+@import "./components/HomePageProductSlider.scss";
+@import "./components/AboutWoodMart.scss";
+@import "./components/JoinOurNewsSection.scss";
+@import "./components/OurLatestNews.scss";
+@import "./components/PostBlogItem.scss";
+@import "./components/AppFooter.scss";
+@import "./components/BlogPage.scss";
+@import "./components/AppPageBanner.scss";
+@import "./components/HomePageSubCarousel.scss";
+@import "./components/ScrollNav.scss";
+@import "./components/UserRegisterSidebar.scss";
+
+// Pages
+@import "./components/ShopPage.scss";
+@import "./components/PagesPage.scss";
+@import "./components/CartPage.scss";

@@ -1,0 +1,45 @@
+// categories sub mneus
+@mixin categorySubMenu($top, $bgImage: true) {
+  visibility: hidden;
+  position: absolute;
+  top: $top;
+  left: 269px;
+  height: 451px;
+  min-width: 900px;
+  border-left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: $bgImage;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(30px);
+}
+
+@mixin appCustomBtn($bg, $color, $padding) {
+  background-color: $bg;
+  color: $color;
+  padding: $padding;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+@mixin offerSpan($bg, $width, $height, $color, $fSize) {
+  display: block;
+  background-color: $bg;
+  width: $width;
+  height: $height;
+  border-radius: 50%;
+  color: $color;
+  text-align: center;
+  line-height: $height;
+  font-size: $fSize;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
